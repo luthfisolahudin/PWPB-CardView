@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CardView</string>
+
+    <string name="default_name">User Name</string>
+
+    <string name="label_photos">Photos</string>
+    <string name="label_followers">Followers</string>
+    <string name="label_following">Following</string>
+    <string name="label_add_to_groups">Add to Group</string>
+    <string name="label_show_all_comments">Show all comments</string>
+
+    <string name="label_follow">Follow me</string>
+</resources>
