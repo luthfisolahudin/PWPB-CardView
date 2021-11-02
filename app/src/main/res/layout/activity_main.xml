@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/light_orange"
+            android:background="@color/moderate_red"
             android:gravity="top|center"
             android:orientation="vertical"
             android:paddingVertical="36dp">
@@ -25,8 +25,7 @@
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ic_baseline_account_circle_24"
-                app:tint="@color/white" />
+                android:src="@drawable/userpic" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -79,7 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@color/light_orange"
+                    android:textColor="@color/moderate_red"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -102,7 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@color/light_orange"
+                    android:textColor="@color/moderate_red"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -125,7 +124,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="@color/light_orange"
+                    android:textColor="@color/moderate_red"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -254,6 +253,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@drawable/bg_btn_red"
+        android:paddingHorizontal="16dp"
         android:text="@string/label_follow"
         android:textColor="@color/white" />
 
